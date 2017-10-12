@@ -2809,7 +2809,7 @@ def cli_name_import(args, interactive=True, config_path=CONFIG_PATH, proxy=None)
 
     name = str(args.name)
     address = virtualchain.address_reencode( str(args.address) )
-    zonefile_path = str(args.zonefile_path)
+    zonefile_path = str(args.zonefile)
     privkey = str(args.privatekey)
 
     try:
